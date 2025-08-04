@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apiraya Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </div>
+        <div class="scroll-progress">
+            <div class="progress-bar"></div>
+        </div>
+    </nav>
+
+    <div class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight"></span>Apiraya</h1>
+            <p class="hero-subtitle">Full Stack Developer</p>
+            <p class="hero-description">I create beautiful and functional web applications</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://scontent.fbkk22-1.fna.fbcdn.net/v/t39.30808-6/528054328_2347121282349374_734659144786236406_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGT-lpPKMQ7HPK36HDNEchtvV1pOf1eBge9XWk5_V4GB7fs-45kCTvPcJi1coiHSUGwKpL2qy81EET5v93bKbN5&_nc_ohc=jS254BwAiqEQ7kNvwEkuwhA&_nc_oc=AdlSJlpou4ZRXRDAX2hEjKDa2VXTZg5qg-gk6-ZDG2TETq_0ye_Dw7ZfvfuzPSKcv9M&_nc_zt=23&_nc_ht=scontent.fbkk22-1.fna&_nc_gid=LUmnYHST9XkryfvTqREovA&oh=00_AfWO7Ak9uSA5R_I33hb5oM5L26uWiJha_KF1ALQ24QhZyQ&oe=6896B861"
+                alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Full Stack Developer with experience in creating web applications using modern
+                        technologies. I love solving complex problems and learning new technologies.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>15+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://scontent.fbkk22-1.fna.fbcdn.net/v/t39.30808-6/528067875_2347117732349729_923123884342315071_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGQG-DI8xcQFeJpZq0XSjJbfiBccaw6npV-IFxxrDqelazUl8yZw2ETrewoHIOET0XVrgI5zaokKkpoga-oa-5Q&_nc_ohc=-byiT9-QYoIQ7kNvwGyeQMD&_nc_oc=Adm7K2dQP7I4x1wH9ncc9Ri2lRDht9sinxQ5TcaPT9xGnjMXijgyV6UUf_Hbm03QVaI&_nc_zt=23&_nc_ht=scontent.fbkk22-1.fna&_nc_gid=bcBaKmjcn71KzksDGhDjpQ&oh=00_AfVVbD3xPOu7GBYSPv-WdXihOYqqtNH0oTTMBhD931uKPw&oe=6896A2D3"
+                        alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern HTML5 features</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and modern CSS techniques</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+ features and modern JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Component-based UI development</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript development</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDl3ZGgO70TWYa4f67VVNA9QZL296wbAtk5GMYzRc5gbwiDnWzDaJ2oopZcwPi26V-nU&usqp=CAU"
+                        alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>A full-stack e-commerce solution built with React and Node.js</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://img.pikbest.com/illustration/20241217/cat-cartoon-animal-kitten-pet-cute-illustration-happy-art-pets_11263081.jpg!sw800"
+                        alt="Project 2">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfKO0nl5NK6ekOjoZIs655nEOdVSUN6PvlpjzEiWhUGP4dFG44gbKIJZLH1siwMgJcrk&usqp=CAU"
+                        alt="Project 3">
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>A responsive weather application with location-based forecasts</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>test@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+66 12 345 6789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangkok, Thailand</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name. Software Engineering, RMUTL. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
