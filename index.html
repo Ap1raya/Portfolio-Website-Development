@@ -51,7 +51,11 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Hello, I'm <span class="highlight"></span>Apiraya</h1>
-            <p class="hero-subtitle">Full Stack Developer</p>
+            <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            </p>
             <p class="hero-description">I create beautiful and functional web applications</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -138,8 +142,17 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card" data-category="web">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDl3ZGgO70TWYa4f67VVNA9QZL296wbAtk5GMYzRc5gbwiDnWzDaJ2oopZcwPi26V-nU&usqp=CAU"
                         alt="Project 1">
                     <div class="project-info">
@@ -151,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-category="mobile">
                     <img src="https://img.pikbest.com/illustration/20241217/cat-cartoon-animal-kitten-pet-cute-illustration-happy-art-pets_11263081.jpg!sw800"
                         alt="Project 2">
                     <div class="project-info">
@@ -163,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-category="ui">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfKO0nl5NK6ekOjoZIs655nEOdVSUN6PvlpjzEiWhUGP4dFG44gbKIJZLH1siwMgJcrk&usqp=CAU"
                         alt="Project 3">
                     <div class="project-info">
@@ -222,6 +235,11 @@
             </div>
         </div>
     </section>
+
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- Footer -->
     <footer class="footer">
